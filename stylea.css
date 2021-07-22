@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.hero{
+    height :100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(about.jpg);
+    background-position: center;
+    background-size: cover;     
+    overflow-x: hidden;
+    position: relative;
+}
+.container{
+    height: 75vh;
+    width: 30%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.container h1{
+    color: white;
+    margin-top: 50px;
+}
+.container p{
+    margin-top: 60px;
+    color: white;
+    font-size: large;
+}
+.container h2{
+    margin-top: 80px;
+    color: white;
+}
+.container ul{
+    display: inline;
+    
+
+}
+.container ul li{
+    list-style: none;
+    color: white;
+
+}
+.btn{
+    padding: 10px 25px;
+    border: solid black;
+    border-radius: 20px;
+    background: yellow;
+    cursor: pointer;
+}
+ .btn:hover {
+     background-color: yellowgreen;
+}

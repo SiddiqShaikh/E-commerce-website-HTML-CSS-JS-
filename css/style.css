@@ -1,0 +1,112 @@
+
+html,body{
+    position: relative;
+    height: 100%;}
+    body{
+        
+        margin: 0px;
+        padding: 0px;
+        font-family:Arial, Helvetica, sans-serif;
+        background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(product.jpg);
+        background-position: center;
+        background-size: cover;     
+        overflow-x: hidden;
+        position: relative;
+        background-repeat: no-repeat;}
+.slider-box{
+    margin: 20px;
+    height: 350px;
+    width: 250px;
+    position: relative;
+    background-color:transparent;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    float: left;
+}
+.slider-box a{
+    text-decoration: none;
+    text-align: center;
+}
+.img-box{
+    height: 120px;
+    width: 100px;
+}
+.img-box img{
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.time{
+    position: absolute;;
+    top: 0px;
+    right: 20px;
+    color: #f16007;
+}
+.detail{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 5px;
+    color:white;
+}
+.price{
+    margin: 30px;
+    padding: 30px;
+    color:white;
+    line-height: 70px;
+    position: relative;
+    width: 60%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    bottom: 60px;
+}
+.cart{
+    position: absolute;
+    bottom: 0px;
+    height: 45px;
+    background-color:yellowgreen;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart a{
+    color:white;
+}
+.slider-box:hover{
+    box-shadow: 2px 2px 12px rgba(0, 0, 0 );
+}
+.slider-box:hover.img-box img{
+    transform: scale(1.07);
+    transition: all ease 0.3s;
+}
+.cart:hover{
+    transform: scale(1.1);
+    background-color: #fe9048;
+    box-shadow: 2px 2px 12px rgba(47,47,0,40);
+    transition: all ease 0.1s;
+}
+.slider-box:hover{
+    transform: scale(1.07);
+    transition: all ease 0.3s;
+}
+.btn{
+    padding: 10px 25px;
+    border: solid black;
+    border-radius: 20px;
+    background: yellow;
+    cursor: pointer;
+    margin-top: 20%;
+    margin-left: 23%;
+}
+ .btn:hover {
+     background-color: yellowgreen;
+}
